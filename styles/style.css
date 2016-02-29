@@ -424,7 +424,10 @@ time, mark, audio, video {
     .article_main_center {
         margin-left: 0;
     }
-
+	.whole_section_center > section{
+		margin-left: 1.2em;
+	}
+	
     .section_h3_margin_2 {
         margin-top: 1.5em;
         margin-left: 1.5em;
@@ -455,17 +458,18 @@ time, mark, audio, video {
     .bottom_question {
         margin-top: 2.5em;
         margin-left: 10em;
-        margin-left: 0;
+        margin-left: 1em;
         padding-left: 0;
         padding-right: 3em;
         box-sizing: border-box;
-        height: 20em;
+        height: 10em;
 
     }
 
     .new_collection_text {
         padding-top: 5em;
-        padding-left: 2em;
+        padding-left: 0.5em;
+		margin-right: 0;
     }
 
     .new_collection_img {
@@ -474,7 +478,6 @@ time, mark, audio, video {
 
     .bottom_question2 {
         margin-left: 0;
-        padding-left: 15em;
         box-sizing: border-box;
         height: 20em;
     }
@@ -492,11 +495,27 @@ time, mark, audio, video {
     }
 
     .bottom_left_text {
-        margin-right: 0;
+        margin-left: 2em;
     }
 	.bottom_nav {
 		padding-left: 0;
 	}
+	
+	.bottom_nav ul {
+		padding-left: 2em;
+		width: 200px;
+	}
+
+	.bottom_nav li {
+		float: none;
+	}
+
+	.bottom_nav li a {
+		display: block;
+		text-align: left;
+		padding: 9px 0px;
+	}
+
 
 }
 
